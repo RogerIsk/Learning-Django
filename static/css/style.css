@@ -15,13 +15,13 @@ body {
 
 nav {
     padding: 1rem;
-    background-color: #44B78B;
+    background-color: #1a4638;
     color: white;
     font-size: 2.5rem;
 }
 
 main {
-    flex-grow: 1;
+    flex-grow: 5;
     display: grid;
     place-content: center;
 }
@@ -33,7 +33,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #81dbb8;
+    color: #34e49d;
 }
 
 a:hover {
