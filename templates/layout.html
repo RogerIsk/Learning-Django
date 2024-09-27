@@ -4,11 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>
+        {% block title %}
+                Django App
+        {% endblock %}
+    </title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <script src="{% static 'js/main.js' %}" defer></script>
 </head>
 <body>
-    
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/posts">Posts</a>
+
+
+
+    </nav>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 </body>
 </html>
