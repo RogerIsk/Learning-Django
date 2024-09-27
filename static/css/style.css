@@ -16,3 +16,25 @@ body {
 h1, p {
     text-align: center;
 }
+
+nav {
+    padding: 1rem;
+    background-color: aquamarine;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+}
+
+a {
+    color: #00fd3f;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .8;
+}
